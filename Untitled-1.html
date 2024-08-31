@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador</title>
+    <link rel="stylesheet" href="stylep.css"/>
+</head>
+<body>
+
+<header>
+    <h1>Proyecto Integrador</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#formulacion" onclick="showSection('formulacion')">Formulación del problema</a></li>
+        <li><a href="#analisis" onclick="showSection('analisis')">Análisis del problema</a></li>
+        <li><a href="#busqueda" onclick="showSection('busqueda')">Búsqueda de soluciones posibles</a></li>
+        <li><a href="#decision" onclick="showSection('decision')">Fase de decisión</a></li>
+        <li><a href="#especificaciones" onclick="showSection('especificaciones')">Especificaciones de la solución</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <div id="formulacion" class="section active">
+        <h2>Formulación del problema</h2>
+        <p>En Colombia, una gran parte de la población carece de un conocimiento adecuado sobre las leyes y los procesos legales, lo que los hace susceptibles a ser víctimas de fraudes y estafas o a verse en situaciones negativas frente a problemas determinados. Esta falta de información y comprensión sobre sus derechos legales y las herramientas disponibles para protegerse contribuye a que muchos colombianos se vean fácilmente engañados o manipulados. La situación se agrava por la escasa educación en temas legales desde temprana edad y la falta de recursos accesibles para aprender sobre estos aspectos cruciales, lo que perpetúa un ciclo de desinformación y vulnerabilidad en la sociedad.</p>
+    </div>
+
+    <div id="analisis" class="section">
+        <h2>Análisis del problema</h2>
+        <h3>Estado "A" (Estado Inicial):</h3>
+        <p>En este estado, la situación es que muchos ciudadanos colombianos no tienen conocimientos suficientes sobre sus derechos y leyes, lo que resulta en un acceso limitado a la justicia y una falta de educación legal adecuada.</p>
+        <h4>Variables de entrada:</h4>
+        <ul>
+            <li>Preguntas o problemas legales que los ciudadanos puedan tener.</li>
+            <li>Búsqueda de datos sobre derechos humanos y leyes vigentes.</li>
+            <li>Juegos, guías, y materiales educativos relacionados con el sistema legal colombiano.</li>
+            <li>Acceso a una herramienta que permita socializar temas relacionados.</li>
+            <li>Asesoría por parte de expertos.</li>
+        </ul>
+        <h3>Estado "B" (Estado Final):</h3>
+        <p>En este estado, los ciudadanos están mejor informados sobre sus derechos y leyes. La app proporciona respuestas a consultas legales, detecta vulneraciones de derechos, conecta con abogados, y ofrece educación legal mediante juegos y recursos.</p>
+        <h4>Variables de Salida/ Soluciones que da nuestro proyecto:</h4>
+        <ul>
+            <li>Respuestas a las preguntas legales de los usuarios.</li>
+            <li>Identificación de posibles violaciones de derechos.</li>
+            <li>Conexión con Abogados.</li>
+            <li>Los usuarios adquieren conocimiento a través de juegos y materiales educativos.</li>
+            <li>Acceso a participación y consejos compartidos en el foro comunitario.</li>
+        </ul>
+        <h4>Restricciones:</h4>
+        <ul>
+            <li>Regulación Legal: Cumplir con las normativas legales sobre privacidad y protección de datos en Colombia.</li>
+            <li>Acceso y conectividad: Adaptar la app para funcionar en una variedad de dispositivos, incluidos teléfonos móviles y computadoras.</li>
+            <li>Capacitación de Abogados: Disponibilidad y disposición de abogados para participar en la plataforma.</li>
+            <li>Verificar que los abogados que participan en la plataforma estén debidamente licenciados y cumplan con las normativas locales.</li>
+            <li>Alimentación del chatbot encargado de dar respuestas a ciertas solicitudes: De dónde se sacará la información que va a utilizar?</li>
+            <li>Calidad y precisión de la información.</li>
+            <li>Actualización de Contenidos: Necesidad de mantener la biblioteca de leyes y guías actualizadas con las últimas reformas legales.</li>
+        </ul>
+        <h4>Criterios:</h4>
+        <ul>
+            <li>Eficacia en la Educación: La página debe ser capaz de educar a los usuarios de manera efectiva, proporcionando información que realmente aumente su comprensión legal y capacidad de acción.</li>
+            <li>Accesibilidad Técnica: Debe ser accesible desde cualquier dispositivo con conexión a internet, con un tiempo de carga rápido y sin requerir tecnología avanzada.</li>
+            <li>Interactividad: Una buena experiencia de usuario es clave, por lo que la página debe incluir elementos interactivos que faciliten la comprensión, como videos, infografías, y simulaciones de procesos legales.</li>
+            <li>Sostenibilidad y Mantenimiento: La página debe ser fácil de actualizar con nuevos contenidos y mantener técnicamente a lo largo del tiempo.</li>
+        </ul>
+    </div>
+
+    <div id="busqueda" class="section">
+        <h2>Búsqueda de soluciones posibles</h2>
+        <ul>
+            <li>Desarrollo de una aplicación móvil que ofrezca respuesta a consultas legales a través de un chatbot, detecte vulneraciones de derechos, conecte usuarios con abogados, incluya una biblioteca de leyes, guías prácticas, y un foro comunitario. También que incluya juegos para que así los más jóvenes se interesen en el aprendizaje de leyes y adquieran conocimiento sobre estos temas desde una temprana edad.</li>
+            <li>Implementación de cursos online sobre leyes y derechos: Ofrecer cursos online accesibles sobre derechos y leyes colombianas, con certificación al finalizar.</li>
+            <li>Creación de una Plataforma de Asesoría Legal en Línea: Establecer una plataforma en línea donde usuarios puedan consultar con abogados en tiempo real y recibir asesoría sobre sus casos a través de video consulta o chat.</li>
+        </ul>
+    </div>
+
+    <div id="decision" class="section">
+        <h2>Fase de decisión</h2>
+        <p>Después de una comparación seleccionamos la opción teniendo en cuenta lo siguiente:</p>
+        <p>Consideramos soluciones basadas en sistemas de gestión de contenidos que permiten fácil actualización y mantenimiento de la información legal.</p>
+        <p>Realizamos una evaluación comparativa de las herramientas y métodos preseleccionados, utilizamos criterios como la facilidad de uso, la capacidad de escalabilidad, la accesibilidad, y el costo de implementación y mantenimiento. Después de una evaluación inicial, se eliminan las alternativas que no cumplen con los estándares mínimos en términos de usabilidad o que son técnicamente complejas para el público objetivo.</p>
+        <div id="razones">
+            <h3>Razones:</h3>
+            <li>
+        <p>Facilidad de Actualización y Mantenimiento: La aplicación permite una gestión continua y sencilla de la información legal, asegurando que los contenidos siempre estén actualizado</p>
+        <p>Escalabilidad: La solución es escalable, adaptándose a un número creciente de usuarios y permitiendo la adición de nuevas funcionalidades o contenido.</p>
+        <p>Accesibilidad: La aplicación está diseñada para ser fácilmente accesible tanto para jóvenes como para adultos, garantizando que diversos grupos de usuarios puedan beneficiarse de sus recursos.</p>
+        <p>Integración de Funcionalidades: A diferencia de una página de cursos o una plataforma de consultas en tiempo real, la aplicación móvil combina múltiples funciones en una sola plataforma: consultas legales a través de un chatbot, detección de vulneraciones de derechos, conexión con abogados, y acceso a una biblioteca de leyes y guías prácticas.</p>
+        <p></p>
+    </li>
+    </div>
+    </div>
+        
+        <div id="especificaciones" class="section">
+        <h2>Especificaciones de la solución</h2>
+
+            <br>
+            <h3>Planteamiento de la solución: Aplicación móvil</h3>
+            <p>La aplicación móvil integral tiene como objetivo mejorar el conocimiento y el acceso a los derechos y leyes en Colombia mediante una plataforma interactiva y accesible. La app combina consultas legales automatizadas, juegos educativos, acceso a abogados y un foro comunitario para brindar una solución completa a las necesidades de los ciudadanos colombianos.</p>
+            <br>
+            <h4> Objetivos del Proyecto</h4>
+                <ul>
+                    <h4>Educar</h4>
+                    <p>Proporcionar información legal de manera accesible y comprensible. </p>
+                    <h4>Asesorar</h4>
+                    <p> Ofrecer asesoría legal personalizada a través de un sistema de IA y conexión directa con abogados.</p>
+                    <h4>Alertar</h4>
+                    <p>Detectar y notificar posibles vulneraciones de derechos.</p>
+                    <h4>Facilitar la interacción entre usuarios y compartir conocimientos</h4>
+                    <p> Facilitar un espacio para compartir experiencias y recibir consejos en un foro comunitario</p>
+                    <h4>Divertir</h4>
+                    <p> Enseñar conceptos legales de manera lúdica mediante juegos educativos.</p>
+                </ul>
+                <br>
+            <h4>Descripción de la Solución</h4>
+                    <h4>Consultas Legales Automatizadas</h4>
+                    <p>Un sistema basado en IA que responderá preguntas frecuentes sobre derechos y leyes a través de un chat. Este sistema se entrenaría para que estudie la constitución política, el código penal y cualquier tema referente y que así proporcione respuestas certeras a las consultas más comunes. </p>
+                    <h4>Detección de Vulneraciones de Derechos:</h4>
+                    <p> El sistema evalúa las respuestas y datos del usuario para identificar posibles problemas y envía alertas.                        </p>
+                    <h4>Conexión con Abogados</h4>
+                    <p> Los abogados pueden registrarse y dejar su información de contacto. El sistema sería similar a aplicaciones de salud que ponen la información de contacto del profesional, junto con costos y detalles relevantes. </p>
+                    <h4>Juegos Educativos:</h4>
+                    <p> Actividades lúdicas adaptadas para diferentes edades para enseñar sobre el sistema legal colombiano de forma interactiva.  Los usuarios participan en juegos que presentan escenarios legales y preguntas; el sistema evalúa el rendimiento, da resultados, recomendaciones.</p>
+                    <h4>Biblioteca de Leyes y Guías Prácticas:</h4>
+                    <p>Una base de datos accesible con información legal y guías prácticas.</p>
+
+                    <h4>Foro Comunitario:</h4>
+                    <p>Un espacio para que los usuarios compartan experiencias y reciban consejos de otros miembros y expertos. Los usuarios pueden registrarse, hacer preguntas, responder y compartir experiencias</p>
+                <br>
+                <h3>Datos de entrada y salida</h3>
+                <h4>Datos de entrada</h4>
+                <p>Datos del Usuario</p>
+                <p>Consultas legales</p>
+                <p>Contenido educativo</p>
+                <p>Datos de abogados</p>
+                <p>Foros y comunidad</p>
+                <br>
+                <h3>Datos de salida</h3>
+                <p>Respuestas automatizadas</p>
+                <p>Alertas de vulneraciones</p>
+                <p>Consultas de abogados</p>
+                <p>Progreso en juegos educativos</p>
+                <p>Interacciones en el Foro</p>
+                <br>
+                <br>
+                <h3>Aspectos técnicos</h3>
+                <h4>Tecnología y Herramientas</h4>
+                <h4>Desarrollo</h4>
+                <p>Aplicación nativa para iOS y Android usando herramientas como React Native o Flutter</p>
+                <h4>IA y Procesamiento de Lenguaje Natural</h4>
+                <p> Algoritmos para la generación de respuestas y detección de vulneraciones.</p>
+                <h4>Base de datos</h4>
+                <p>Sistema de gestión de base de datos para almacenar leyes, guías, y datos de usuarios.</p>
+                <br>
+                <br>
+                <h3>Estadisticas de la solución</h3>
+                <p>Desconocimiento ciudadano sobre los mecanismos institucionales para la protección de derechos en colombia:</p>
+                <div class='tableauPlaceholder' id='viz1725145004338' style='position: relative'><noscript><a href='https:&#47;&#47;cej.org.co&#47;'><img alt='Fuente: Encuesta de Cultura Política 2023 - DANE ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;6J&#47;6JNWYF44M&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;6JNWYF44M' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;6J&#47;6JNWYF44M&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1725145004338');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1050px';vizElement.style.height='797px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1050px';vizElement.style.height='797px';} else { vizElement.style.width='100%';vizElement.style.height='1527px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                
+                
+        
+            </article>
+    </div>
+</div>
+
+<script>
+    function showSection(sectionId) {
+        document.querySelectorAll('.section').forEach(section => {
+            section.classList.remove('active');
+        });
+        document.getElementById(sectionId).classList.add('active');
+    }
+</script>
+
+</body>
+</html>
